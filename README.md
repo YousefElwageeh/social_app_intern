@@ -12,7 +12,7 @@ To get started, you'll need to follow these steps:
 4. Build and run the app on an emulator or a physical device
 
 ## Architecture
-
+this app use firebase  as backend
 This app follows the principles of Clean Architecture, which separates the app into distinct layers of responsibility. The layers are as follows:
 
 - **Presentation:** This layer contains the UI components and handles user interactions. It communicates with the domain layer via interfaces.
@@ -21,11 +21,4 @@ This app follows the principles of Clean Architecture, which separates the app i
 
 The benefit of Clean Architecture is that it allows for easy testing, maintainability, and scalability of the app.
 
-## Firebase Integration
 
-This app uses Firebase for [insert the features that are using Firebase here]. To integrate Firebase into the app, follow these steps:
-
-1. Set up your Firebaseproject and add the `google-services.json` configuration file to the `app` directory of the project.
-2. Add the necessary Firebase dependencies to the `build.gradle` files of the app module.
-3. Configure the Firebase services that you will be using in the app, such as Firebase Firestore, Firebase Authentication, Firebase Cloud Messaging, Firebase Analytics, etc.
-4. Use the Firebase SDKs to interact with the Firebase services in your app code.
